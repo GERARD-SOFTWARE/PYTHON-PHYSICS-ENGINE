@@ -16,7 +16,7 @@ window.bind("<Configure>", on_window_resize)
 canvas = tk.Canvas(window, bg="black")
 canvas.pack(fill=tk.BOTH, expand=True)
 
-gravity = 0.3
+gravity = 0.2
 
 # class Object:
 #     def __init__(self, x, y):
